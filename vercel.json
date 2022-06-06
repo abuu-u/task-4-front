@@ -1,13 +1,8 @@
 {
-  "headers": [
+  "rewrites": [
     {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "access-control-allow-origin",
-          "value": "*"
-        }
-      ]
+      "source": "/task4/:match*",
+      "destination": "http://152.67.78.133/task4/:match*"
     }
   ]
 }
