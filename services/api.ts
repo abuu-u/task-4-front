@@ -2,7 +2,7 @@ export interface ErrorResponse {
   message: string
 }
 
-export const api = process.env.API
+export const api = process.env.NEXT_PUBLIC_API
 
 export const defaultHeaders = {
   accepts: 'application/json',
